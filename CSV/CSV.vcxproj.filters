@@ -18,15 +18,15 @@
     <ClInclude Include="XCFileStream.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="processdata.h">
+    <ClInclude Include="getfiles.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="getfiles.h">
+    <ClInclude Include="..\..\dataprocess\CSV\processdata.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="XCFileStream.cpp">
+    <ClCompile Include="..\..\dataprocess\CSV\XCFileStream.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

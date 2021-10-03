@@ -123,12 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\dataprocess\CSV\processdata.h" />
     <ClInclude Include="getfiles.h" />
-    <ClInclude Include="processdata.h" />
     <ClInclude Include="XCFileStream.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="XCFileStream.cpp" />
+    <ClCompile Include="..\..\dataprocess\CSV\XCFileStream.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
